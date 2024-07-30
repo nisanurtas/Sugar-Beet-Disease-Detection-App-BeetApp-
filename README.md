@@ -1,11 +1,11 @@
-# Sugar-Beet-Disease-Detection-App-BeetApp-
+![image](https://github.com/user-attachments/assets/b2b81eef-2280-473c-8cb2-fdbeadde59f6)# Sugar-Beet-Disease-Detection-App-BeetApp-
 
 BeetApp is an Android application designed to detect rust disease in sugar beets. The application allows users to photograph their sugar beet plants and uses AI-powered image processing algorithms to determine the presence of the disease.
 
 ![image](https://github.com/user-attachments/assets/d968c0ed-d6f4-4049-acb4-2cd16b595753)&nbsp;&nbsp;
 ![image](https://github.com/user-attachments/assets/b117b6f2-29ae-4a6f-8b50-d20c813813aa)&nbsp;&nbsp;
 ![image](https://github.com/user-attachments/assets/1d48a301-c956-4d15-ba86-b9ad9e35104f)&nbsp;&nbsp;
-![image](https://github.com/user-attachments/assets/8cc69380-3d9f-44c5-92db-1fa60448a888)
+![image](https://github.com/user-attachments/assets/8cc69380-3d9f-44c5-92db-1fa60448a888)&nbsp;&nbsp;
 
 
 
