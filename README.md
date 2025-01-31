@@ -1,6 +1,113 @@
 # Sugar Beet Disease Detection BeetApp
 
-BeetApp is an Android application designed to detect rust disease in sugar beets. The application allows users to photograph their sugar beet plants and uses AI-powered image processing algorithms to determine the presence of the disease.
+Overview
+
+This project focuses on real-time rust disease detection in sugar beets using the YOLOv8 object detection model, integrated with a cross-platform mobile application developed using Flutter. The system processes images from the device's camera and applies deep learning techniques to identify rust disease in sugar beets.
+
+# Features
+
+Real-time disease detection using YOLOv8
+
+Cross-platform mobile application built with Flutter
+
+Camera-based image processing
+
+User-friendly UI for displaying disease classification results
+
+Efficient model inference for mobile deployment
+
+# Tech Stack
+
+Deep Learning Framework: YOLOv8 (Ultralytics)
+
+Mobile Development: Flutter (Dart)
+
+Deployment: ONNX / TensorFlow Lite (TFLite) for mobile inference
+
+# Dataset
+
+The dataset used for training the YOLOv8 model consists of annotated images of sugar beet plants affected rust disease. The dataset was preprocessed and augmented to improve model performance.
+
+# Model Training
+
+Dataset Preparation
+
+Collected and annotated images.
+
+Applied data augmentation techniques such as rotation, flipping, and contrast adjustments.
+
+Model Training
+
+Used the Ultralytics YOLOv8 framework for training.
+
+Trained on a GPU ( Google Colab).
+
+Optimized hyperparameters including batch size, learning rate, and number of epochs.
+
+Model Export for Mobile
+
+Converted the trained YOLOv8 model to ONNX / TensorFlow Lite for efficient mobile inference.
+
+Quantized the model to reduce size and improve speed without compromising accuracy.
+
+# Flutter Application Development
+
+*Project Setup*
+
+Created a Flutter project using flutter create.
+
+Integrated the necessary dependencies (camera, image_picker, tflite_flutter, etc.).
+
+*Model Integration*
+
+Loaded the YOLOv8 model into the Flutter app using TFLite/ONNX runtime.
+
+Implemented real-time image processing using the device's camera.
+
+Processed model output to extract bounding boxes and classification results.
+
+# UI/UX Design
+
+Developed an intuitive interface for capturing and analyzing images.
+
+Displayed detection results with bounding boxes and confidence scores.
+
+Implemented feedback options for users to report false positives/negatives.
+
+# Deployment
+
+Tested on Android devices.
+
+Optimized model inference for low-latency performance.
+
+Packaged and released the application via Google Play Store (if applicable).
+
+# Challenges and Solutions
+
+Challenge: Handling real-time inference with a large model.
+
+Solution: Model quantization and performance optimizations.
+
+Challenge: Integrating YOLOv8 into a Flutter application.
+
+Solution: Used ONNX/TFLite for mobile compatibility.
+
+Challenge: Improving accuracy for rare disease cases.
+
+Solution: Applied advanced augmentation and increased dataset diversity.
+
+# Future Improvements
+
+Enhancing model accuracy with a larger dataset.
+
+Adding cloud-based inference for improved efficiency.
+
+Implementing user feedback mechanisms for active learning.
+
+# Conclusion
+
+This project successfully combines deep learning and mobile application development to create an efficient sugar beet disease detection system. By leveraging YOLOv8 and Flutter, we achieved real-time disease detection capabilities on mobile devices, making it accessible for farmers and agricultural experts.
+
 
 <img src="https://github.com/user-attachments/assets/d968c0ed-d6f4-4049-acb4-2cd16b595753" alt="Home Page">
 <br>
@@ -17,10 +124,7 @@ BeetApp is an Android application designed to detect rust disease in sugar beets
 
 
 
-## Features
 
-- **Rust Disease Detection:** Utilizes AI-based algorithms to identify rust disease in sugar beets.
-- **User-Friendly Interface:** Provides an intuitive and easy-to-use interface.
 
 - ## Installation
 
